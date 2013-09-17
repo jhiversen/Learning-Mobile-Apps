@@ -32,6 +32,7 @@
     _lblOutput.text = output;
 }
 
+//Dismiss keyboard
 - (IBAction)backgroundTap:(id)sender
 {
     [self.view endEditing:YES];
