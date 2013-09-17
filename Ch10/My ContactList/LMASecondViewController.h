@@ -10,5 +10,5 @@
 
 @interface LMASecondViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIScrollView *sv1;
+
 @end

@@ -19,13 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     //UIScrollView *tempScrollView=(UIScrollView *)self.view;
-    _sv1.contentSize=CGSizeMake(325,1000);
 }
 
--(void)viewDidLayoutSubviews
-{
-    _sv1.contentSize=CGSizeMake(325,1000);
-}
 
 - (void)didReceiveMemoryWarning
 {
